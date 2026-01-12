@@ -72,28 +72,9 @@
 
         .logo img {
             width: 100%;
-            max-width: 400px;
+            max-width: 320px;
             height: auto;
             display: block;
-        }
-
-        .logo::after {
-            content: '';
-            position: absolute;
-            bottom: -8px;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: var(--black);
-            transform: scaleX(0);
-            transform-origin: left;
-            animation: underlineGrow 0.8s ease-out 0.3s forwards;
-        }
-
-        @keyframes underlineGrow {
-            to {
-                transform: scaleX(1);
-            }
         }
 
         .tagline {
@@ -239,7 +220,7 @@
 
         @media (max-width: 640px) {
             .logo img {
-                max-width: 280px;
+                max-width: 224px;
             }
 
             .link {
@@ -268,20 +249,14 @@
             <a href="#" class="link">
                 <span>About</span>
             </a>
-            <a href="#" class="link">
+            <a href="https://www.deviantart.com/jezuspop" target="_blank" rel="noopener noreferrer" class="link">
                 <span>Portfolio</span>
             </a>
-            <a href="#" class="link">
-                <span>Services</span>
-            </a>
-            <a href="#" class="link">
+            <a href="https://www.teepublic.com/user/jezuspop" target="_blank" rel="noopener noreferrer" class="link">
                 <span>Shop</span>
             </a>
-            <a href="#" class="link">
+            <a href="mailto:jezuspop@gmail.com" class="link">
                 <span>Contact</span>
-            </a>
-            <a href="#" class="link">
-                <span>Newsletter</span>
             </a>
         </nav>
 
