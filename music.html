@@ -90,6 +90,8 @@
             padding: 1.5rem 2rem;
             background: var(--white);
             border: 3px solid var(--black);
+            border-radius: 12px;
+            box-shadow: 6px 6px 0px var(--black);
             text-decoration: none;
             color: var(--black);
             font-weight: 700;
@@ -143,12 +145,14 @@
         }
 
         .link:hover {
-            transform: translateX(8px);
+            transform: translate(3px, 3px);
+            box-shadow: 3px 3px 0px var(--black);
             border-color: var(--black);
         }
 
         .link:active {
-            transform: translateX(4px) scale(0.98);
+            transform: translate(6px, 6px);
+            box-shadow: 0px 0px 0px var(--black);
         }
 
         .back-link {
@@ -156,6 +160,8 @@
             padding: 1.25rem 2rem;
             background: var(--white);
             border: 3px solid var(--black);
+            border-radius: 12px;
+            box-shadow: 6px 6px 0px var(--black);
             text-decoration: none;
             color: var(--black);
             font-weight: 700;
@@ -195,7 +201,8 @@
         }
 
         .back-link:hover {
-            transform: translateX(-8px);
+            transform: translate(-3px, 3px);
+            box-shadow: 3px 3px 0px var(--black);
         }
 
         /* Noise texture overlay */
